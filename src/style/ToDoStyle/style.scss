@@ -1,0 +1,106 @@
+.todo-list {
+  outline: 1px solid black;
+  width: 600px;
+  margin: 200px auto 0 auto;
+  padding: 50px 0 50px 0;
+
+  &__title {
+    font: 42px sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &-input {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+
+    &__field {
+      width: 300px;
+    }
+
+    &__button {
+      padding: 10.5px 50px;
+      margin-left: 50px;
+      background: none;
+      border: 2px solid;
+      border-bottom-width: 4px;
+      font: inherit;
+      letter-spacing: inherit;
+      text-transform: inherit;
+      transition: color 1s;
+
+      &:hover {
+        $color: #eea163;
+        color: $color;
+        animation: zigzag 1s linear infinite;
+        background: linear-gradient(
+              135deg,
+              rgba($color, 0.25) 0.25em,
+              transparent 0.25em
+            ) -0.5em 0,
+          linear-gradient(225deg, rgba($color, 0.25) 0.25em, transparent 0.25em) -0.5em
+            0,
+          linear-gradient(315deg, rgba($color, 0.25) 0.25em, transparent 0.25em)
+            0 0,
+          linear-gradient(45deg, rgba($color, 0.25) 0.25em, transparent 0.25em)
+            0 0;
+        background-size: 0.75em 0.75em;
+        color: adjust-hue($color, 180);
+      }
+      @keyframes zigzag {
+        100% {
+          background-position: 1em 0, 1em 0, -0.75em 0, -0.75em 0;
+        }
+      }
+    }
+  }
+
+  &-todo {
+    width: 500px;
+    display: flex;
+    margin: 40px auto 0 auto;
+    justify-content: space-between;
+
+    &__title {
+      text-align: center;
+    }
+
+    &__complited {
+      text-align: center;
+      color: rgb(70, 138, 70);
+    }
+
+    &__delete {
+      padding: 5px;
+      font-size: 20px;
+      background-color: white;
+      border: 0;
+
+      &:hover {
+        transition: 0.2s;
+        color: #e45151;
+      }
+    }
+  }
+
+  &-checked {
+    color: rgb(70, 138, 70);
+  }
+}
+
+@media (max-width: 420px) {
+  .todo-list {
+    width: 420px;
+    margin: 50px auto 0 auto;
+
+    &-input {
+      &__field {
+        width: 300px;
+      }
+    }  
+
+    &-todo {
+      width: 350px;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.main-page {
+  .header {
+    padding: 200px 150px;
+    background: url("../assets/background2.jpg") no-repeat center/cover;
+
+    &-container {
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      font-family: "Play", sans-serif;
+
+      &-about {
+        &__name {
+          font-size: 48px;
+          font-weight: bold;
+        }
+
+        &__underline {
+          height: 2px;
+          background-color: white;
+          border: 0;
+        }
+
+        &__info {
+          font-size: 34px;
+        }
+      }
+
+      &-contact {
+        width: 50%;
+        margin-top: 32px;
+        text-align: center;
+
+        &__email {
+          text-decoration: none;
+          color: white;
+          font-size: 32px;
+        }
+
+        &__email:hover {
+          color: #5079b8dc;
+          transition: 0.2s;
+        }
+
+        &__icons {
+          display: inline-block;
+          height: 50px;
+          width: 50px;
+        }
+
+        &__vk {
+          background: url("../icons/vk.png") center/80% no-repeat;
+        }
+
+        &__vk:hover {
+          border-radius: 20px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          transition: 0.2s;
+        }
+
+        &__skype {
+          background: url("../icons/skype.png") center/80% no-repeat;
+        }
+
+        &__skype:hover {
+          border-radius: 20px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          transition: 0.2s;
+        }
+
+        &__telegram {
+          background: url("../icons/telegram.png") center/80% no-repeat;
+        }
+
+        &__telegram:hover {
+          border-radius: 20px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .main-page {
+    .header {
+      padding: 100px 0px;
+
+      &-container {
+        flex-direction: column;
+
+        &-about {
+          &__name {
+            font-size: 34px;
+          }
+          &__info {
+            font-size: 28px;
+          }
+        }
+
+        &-contact {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          margin: 20 auto;
+
+          &__email {
+            
+            text-decoration: none;
+            color: white;
+            font-size: 32px;
+            
+          }
+
+          &__icons {
+            height: 80px;
+            width: 80px;
+          }
+        }
+      }
+    }
+  }
+}

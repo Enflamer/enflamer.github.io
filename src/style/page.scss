@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.layout-max-width {
+    font-family: 'Play', sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+@media (max-width: 420px) {
+    .layout-max-width {
+        max-width: 420px;
+    }
+}

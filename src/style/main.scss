@@ -1,0 +1,59 @@
+.main {
+    padding: 20px 100px;
+    font-family: 'Play', sans-serif;
+
+    &__title {
+        font-size: 42px;
+    }
+
+    &-examples {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px;
+
+        &-example {
+            width: 500px;
+            height: 400px;
+            box-shadow: -15px -15px 2px -5px rgba(32, 21, 44, 1),
+            -15px 15px 2px -5px rgba(99, 62, 90, 1),
+            15px -15px 2px -5px rgba(101, 140, 200, 1),
+            15px 15px 2px -5px rgba(253, 174, 85, 1);
+            transition: 0.5s cubic-bezier(1, 0, 0, 2);
+
+            &__one {
+                background: url("../assets/todolist-prevue.jpg") center/cover no-repeat;
+            }
+
+            &__two {
+                background: url("../assets/buh-prevue.jpg") center/cover no-repeat;
+            }
+
+            &:hover {
+                transform: scale(110%);
+                box-shadow: -15px 15px 2px -5px rgba(99, 62, 90, 1),
+                15px 15px 2px -5px rgba(253, 174, 85, 1),
+                15px -15px 2px -5px rgba(101, 140, 200, 1),
+                -15px -15px 2px -5px rgba(32, 21, 44, 1);
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .main { 
+        padding: 10px;
+
+        &-examples {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+
+            &-example {
+                width: 250px;
+                height: 250px;
+                margin: 30px;
+            }
+        }
+    }
+}

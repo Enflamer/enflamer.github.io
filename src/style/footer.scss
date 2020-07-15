@@ -1,0 +1,99 @@
+.main-footer {
+    background: #231730dc;
+    padding: 50px 100px 100px 100px;
+    display: flex;
+    flex-shrink: 0;
+    
+    //lex: 1 0 auto;
+
+    &-container {
+        &__title {
+            margin-right: 1100px;
+            color: white;
+            font-size: 42px;
+        }
+
+        &__about {
+            color: white;
+            font-size: 32px;
+        }
+
+        &-contacts {
+            //width: 50%;
+            margin-top: 70px;
+            text-align: center;
+
+            &__email {
+                text-decoration: none;
+                color: white;
+                font-size: 32px;
+            }
+
+            &__email:hover {
+                color: #5079b8dc;
+                transition: 0.2s;
+            }
+
+
+            &__icons {
+                display: inline-block;
+                height: 50px;
+                width: 50px;
+            }
+
+            &__vk {
+                background: url("../icons/vk.png") center/80% no-repeat;
+            }
+
+            &__vk:hover {
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                transition: 0.2s;
+            }
+
+            &__skype {
+                background: url("../icons/skype.png") center/80% no-repeat;
+            }
+
+            &__skype:hover {
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                transition: 0.2s;
+            }
+
+            &__telegram {
+                background: url("../icons/telegram.png") center/80% no-repeat;
+            }
+
+            &__telegram:hover {
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                transition: 0.2s;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .main-footer {
+        padding: 10px;
+        font-size: 24px;
+
+        &-container {
+            &__title {
+                font-size: 32px;
+            }
+    
+            &__about {
+                color: white;
+                font-size: 18px;
+            }
+
+            &-contacts {
+                //width: 50%;
+                margin-top: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
