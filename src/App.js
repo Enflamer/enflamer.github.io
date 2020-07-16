@@ -10,9 +10,9 @@ function App() {
       <Router>
       {/* <ToDoList /> */}
       <Switch>
-        <Route exact path='/' component={Page} />
-        <Route path='/todolist' component={ToDoList} />
-        <Route path='/buhone' component={Buhone}/>
+        <Route exact path='/enflamer-portfolio' component={Page} />
+        <Route path='/enflamer-portfolio/todolist' component={ToDoList} />
+        <Route path='/enflamer-portfolio/buhone' component={Buhone}/>
       </Switch>
       {/* <Page /> */}
       </Router>
