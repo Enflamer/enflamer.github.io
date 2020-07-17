@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68c2ecbe562f998289594703ac3d3b24",
+    "revision": "7d0abbc375101823a89a3fbedd2deb67",
     "url": "/enflamer-portfolio/index.html"
   },
   {
-    "revision": "4c6a6fd9fe72bdc2b621",
+    "revision": "7029066eba104451bffb",
     "url": "/enflamer-portfolio/static/css/main.a9000873.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/enflamer-portfolio/static/js/2.a0459b52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c6a6fd9fe72bdc2b621",
-    "url": "/enflamer-portfolio/static/js/main.353fc74c.chunk.js"
+    "revision": "7029066eba104451bffb",
+    "url": "/enflamer-portfolio/static/js/main.e4bc2ce9.chunk.js"
   },
   {
     "revision": "8f8b13d226ec209c7d31",
