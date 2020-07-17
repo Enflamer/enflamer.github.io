@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/enflamer-portfolio/static/css/main.bbb4866a.chunk.css",
-    "main.js": "/enflamer-portfolio/static/js/main.a3d842ef.chunk.js",
-    "main.js.map": "/enflamer-portfolio/static/js/main.a3d842ef.chunk.js.map",
+    "main.css": "/enflamer-portfolio/static/css/main.a9000873.chunk.css",
+    "main.js": "/enflamer-portfolio/static/js/main.353fc74c.chunk.js",
+    "main.js.map": "/enflamer-portfolio/static/js/main.353fc74c.chunk.js.map",
     "runtime-main.js": "/enflamer-portfolio/static/js/runtime-main.aa91f707.js",
     "runtime-main.js.map": "/enflamer-portfolio/static/js/runtime-main.aa91f707.js.map",
-    "static/js/2.5dfb2728.chunk.js": "/enflamer-portfolio/static/js/2.5dfb2728.chunk.js",
-    "static/js/2.5dfb2728.chunk.js.map": "/enflamer-portfolio/static/js/2.5dfb2728.chunk.js.map",
+    "static/js/2.a0459b52.chunk.js": "/enflamer-portfolio/static/js/2.a0459b52.chunk.js",
+    "static/js/2.a0459b52.chunk.js.map": "/enflamer-portfolio/static/js/2.a0459b52.chunk.js.map",
     "index.html": "/enflamer-portfolio/index.html",
-    "precache-manifest.138fcfaa2e2e0da6231bad39c015209a.js": "/enflamer-portfolio/precache-manifest.138fcfaa2e2e0da6231bad39c015209a.js",
+    "precache-manifest.704930ef448c1f88940b64d68fb457d3.js": "/enflamer-portfolio/precache-manifest.704930ef448c1f88940b64d68fb457d3.js",
     "service-worker.js": "/enflamer-portfolio/service-worker.js",
-    "static/css/main.bbb4866a.chunk.css.map": "/enflamer-portfolio/static/css/main.bbb4866a.chunk.css.map",
-    "static/js/2.5dfb2728.chunk.js.LICENSE.txt": "/enflamer-portfolio/static/js/2.5dfb2728.chunk.js.LICENSE.txt",
+    "static/css/main.a9000873.chunk.css.map": "/enflamer-portfolio/static/css/main.a9000873.chunk.css.map",
+    "static/js/2.a0459b52.chunk.js.LICENSE.txt": "/enflamer-portfolio/static/js/2.a0459b52.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/enflamer-portfolio/static/media/reviews-photo.93c07077.svg",
     "static/media/header.scss": "/enflamer-portfolio/static/media/background2.1f1f783a.jpg",
     "static/media/main.scss": "/enflamer-portfolio/static/media/todolist-prevue.6777f783.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.aa91f707.js",
-    "static/js/2.5dfb2728.chunk.js",
-    "static/css/main.bbb4866a.chunk.css",
-    "static/js/main.a3d842ef.chunk.js"
+    "static/js/2.a0459b52.chunk.js",
+    "static/css/main.a9000873.chunk.css",
+    "static/js/main.353fc74c.chunk.js"
   ]
 }

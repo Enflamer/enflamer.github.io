@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/enflamer-portfolio/precache-manifest.138fcfaa2e2e0da6231bad39c015209a.js"
+  "/enflamer-portfolio/precache-manifest.704930ef448c1f88940b64d68fb457d3.js"
 );
 
 self.addEventListener('message', (event) => {

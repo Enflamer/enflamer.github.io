@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ed9bc15fce985f6f4266d61440a2340",
+    "revision": "68c2ecbe562f998289594703ac3d3b24",
     "url": "/enflamer-portfolio/index.html"
   },
   {
-    "revision": "a95e515bf5aac6eb4cda",
-    "url": "/enflamer-portfolio/static/css/main.bbb4866a.chunk.css"
+    "revision": "4c6a6fd9fe72bdc2b621",
+    "url": "/enflamer-portfolio/static/css/main.a9000873.chunk.css"
   },
   {
-    "revision": "ace1d898c94ad4f66329",
-    "url": "/enflamer-portfolio/static/js/2.5dfb2728.chunk.js"
+    "revision": "2f084c51bd1ee8144a04",
+    "url": "/enflamer-portfolio/static/js/2.a0459b52.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/enflamer-portfolio/static/js/2.5dfb2728.chunk.js.LICENSE.txt"
+    "url": "/enflamer-portfolio/static/js/2.a0459b52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a95e515bf5aac6eb4cda",
-    "url": "/enflamer-portfolio/static/js/main.a3d842ef.chunk.js"
+    "revision": "4c6a6fd9fe72bdc2b621",
+    "url": "/enflamer-portfolio/static/js/main.353fc74c.chunk.js"
   },
   {
     "revision": "8f8b13d226ec209c7d31",
