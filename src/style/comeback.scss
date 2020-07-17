@@ -1,0 +1,18 @@
+.comeback {
+    position: sticky;
+    top: 5px;
+    height: 50px;
+    width: 300px;
+    margin: 20px auto 0 auto;
+    background-color: rgba(101, 140, 200, 1);
+    transition: all ease 0.8s;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+
+    &:hover {
+        background-color: rgba(253, 174, 85, 1);
+    }
+}

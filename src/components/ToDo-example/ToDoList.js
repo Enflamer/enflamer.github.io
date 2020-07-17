@@ -4,6 +4,7 @@ import "../../style/ToDoStyle/style.scss";
 import TextField from "@material-ui/core/TextField";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import { blue, purple } from "@material-ui/core/colors";
+import Comeback from '../Comeback'
 
 
 
@@ -46,6 +47,8 @@ export default function ToDoList() {
   };
 
   return (
+    <>
+    <Comeback />
     <div className="todo-list">
       <div className="todo-list__title">TODO List</div>
       <div className='todo-list-input'>
@@ -72,5 +75,6 @@ export default function ToDoList() {
         />
       ))}
     </div>
+    </>
   );
 }
