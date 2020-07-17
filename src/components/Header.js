@@ -18,7 +18,7 @@ export default function Header() {
               className="header-container-contact__email"
               href="mailto:enflaimer@gmail.com"
             >
-              enflaimer@gmail.com
+              nikita.savchenko1997@gmail.com
             </a>
             <br />
             <a className="vk" href="https://vk.com/biscotti">

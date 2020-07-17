@@ -15,7 +15,7 @@ export default function Footer() {
             className="main-footer-container-contact__email main-footer-container-contacts__email"
             href="mailto:enflaimer@gmail.com"
           >
-            enflaimer@gmail.com
+            nikita.savchenko1997@gmail.com
           </a>
           <br />
           <div className="main-footer-container-contacts-icons">

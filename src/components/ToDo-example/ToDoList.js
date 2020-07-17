@@ -25,8 +25,6 @@ export default function ToDoList() {
     { id: 0, title: "something", completed: false },
   ]);
 
-  console.log(todos);
-
   const handleSubmit = () => {
     setTodos([
       ...todos,
@@ -36,6 +34,7 @@ export default function ToDoList() {
         completed: false,
       },
     ]);
+    setValue('')
   };
 
   const handleChange = (e) => {
@@ -45,6 +44,12 @@ export default function ToDoList() {
   const deleteTodo = (e, todo) => {
     setTodos(todos.filter((item) => todo.id !== item.id));
   };
+
+  const onKeyPressHandle = (e) => {
+    if(e.keyCode === 13){
+      handleSubmit()
+    }
+  }
 
   return (
     <>
@@ -57,9 +62,10 @@ export default function ToDoList() {
             type="input"
             id="standard-basic"
             className="todo-list-input__field"
-            value={todos.title}
+            value={value}
             onChange={(e) => handleChange(e)}
             label="Enter some text"
+            onKeyDown={(e) => onKeyPressHandle(e)}
           />
         </ThemeProvider>
         <button className="todo-list-input__button" onClick={() => handleSubmit()}>
